@@ -3,9 +3,9 @@ def prime(num):
     for i in range(2,num):
         if num%i==0:
             primeflag=False
-            print(i)
-    if primeflag== True:
+    if primeflag == True:
         return True
     else:
-        return True
-prime(20)
+        return False
+for index in range(2, int(input())):
+    print(index," = ",prime(index))
