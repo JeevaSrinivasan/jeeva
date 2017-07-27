@@ -1,7 +1,9 @@
-def josephus(ls, skip):
-    skip -= 1 # pop automatically skips the dead guy
-    idx = skip
-    while len(ls) > 1:
-        print (ls.pop(idx)) # kill prisoner at idx
-        idx = (idx + skip) % len(ls)
-    print ('survivor: ', ls[0])
+total = int(input())
+kill = int(input())
+"""for i in range(1,total+1):
+    print(i)"""
+j=[]
+for li in range(1,total+1):
+    j.append(li)
+print(j)
+
